@@ -28,7 +28,7 @@ const GallerySection = () => {
     <div className= "flex flex-col items-center justify-center max-w-[1200px] min-h-[603.39px] gap-10 pt-[40px] pb-[40px]">
 
         <h2 className="text-[#2a5b45] text-2xl leading-7 font-medium ">
-               Ultimos Origenes
+               Ultimos Origenes.
               </h2>
         <div className="flex flex-wrap justify-center min-h-[391.39px] gap-6">
       {coffeData.slice(0, 8).map((coffe, i) => {
