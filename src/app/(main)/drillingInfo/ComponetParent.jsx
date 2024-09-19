@@ -1,4 +1,4 @@
-
+import React from 'react'
 import ComponetSon from './ComponentSon';
 
 const ComponetParent = () => {
