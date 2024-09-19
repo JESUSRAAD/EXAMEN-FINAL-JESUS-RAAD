@@ -1,10 +1,11 @@
 
 import React from 'react'
 import ComponetParent from './ComponetParent'
+import Container from './Container'
 
 const page = () => {
   return (
-    <div><ComponetParent/></div>
+    <div><Container/></div>
   )
 }
 
