@@ -1,8 +1,9 @@
 import React from 'react'
+import DigiClock from './DigiClock'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div><DigiClock/></div>
   )
 }
 
