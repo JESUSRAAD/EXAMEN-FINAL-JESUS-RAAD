@@ -1,8 +1,9 @@
 import React from 'react'
+import GallerySection from './GallerySection'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div><GallerySection/></div>
   )
 }
 
