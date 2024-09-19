@@ -1,11 +1,8 @@
-
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-
-    </div>
+    <div className=' ml-[248px]'>page</div>
   )
 }
 
