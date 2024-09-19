@@ -4,7 +4,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className=" flex flex-col fixed gap-10 h-screen border border-red shadow-xl w-fit py-3 px-3 pr-12">
+    <div className=" flex flex-col sticky top-0 gap-10 h-screen border border-red shadow-xl w-fit py-3 px-3 pr-12">
       <div className="text-center text-white font-bold w-[115px] py-1 px-4 rounded-full bg-amber-500">
         Examen Final
       </div>
