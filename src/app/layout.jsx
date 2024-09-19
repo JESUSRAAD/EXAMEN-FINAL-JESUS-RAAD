@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`flex gap-20 ${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`flex gap-18 ${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <div>
         <Sidebar/>
