@@ -61,6 +61,7 @@ const GallerySection = () => {
                     width={219.39}
                     height={219.39}
                     alt="coffe img"
+                    className="opacity-40 -z-10"
                   />
                   <div className="flex flex-col gap-3 text-sm font-semibold leading-4">
                     <p>{coffe.brand}</p>
