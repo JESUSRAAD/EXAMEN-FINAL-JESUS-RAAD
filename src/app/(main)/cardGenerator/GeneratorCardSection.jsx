@@ -76,9 +76,9 @@ const GeneratorCardSection = () => {
           <div className=" flex flex-col  gap-3 border p-4 justify-center">
             <p className="text-center text-xl">Generated Card</p>
             <div>
-              {usersCards.map((user) => {
+              {usersCards.map((user,id) => {
                 return (
-                  <div className="flex bg-yellow-200 p-2 min-h-52 min-w-[350px]">
+                  <div key={id} className="flex bg-yellow-200 p-2 min-h-52 min-w-[350px]">
                     <div className=" flex items-center justify-center min-w-[90px] bg-green-400">
                       <User size={60} />
                     </div>

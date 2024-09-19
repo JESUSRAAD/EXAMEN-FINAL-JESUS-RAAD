@@ -31,9 +31,9 @@ const GallerySection = () => {
                Ultimos Origenes.
               </h2>
         <div className="flex flex-wrap justify-center min-h-[391.39px] gap-6">
-      {coffeData.slice(0, 8).map((coffe, i) => {
+      {coffeData.slice(0, 8).map((coffe) => {
             return (
-                <div key={i} className=" group  flex flex-col items-center justify-center text-center gap-6 w-[282px] min-h-[391.39px] border rounded-lg border-solid border-[#e3ded7]  hover:bg-[#f7f5f3]">
+                <div key={coffe._id} className=" group  flex flex-col items-center justify-center text-center gap-6 w-[282px] min-h-[391.39px] border rounded-lg border-solid border-[#e3ded7]  hover:bg-[#f7f5f3]">
                 <Image src={coffe.img_url} width={219.39} height={219.39} alt="coffe img" />
                 <div className="flex flex-col gap-3 text-sm font-semibold leading-4">
                   <p>{coffe.brand}</p>
