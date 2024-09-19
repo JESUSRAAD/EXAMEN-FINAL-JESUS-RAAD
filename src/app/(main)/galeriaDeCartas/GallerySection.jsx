@@ -28,7 +28,7 @@ const GallerySection = () => {
     <div className= "flex flex-col items-center justify-center max-w-[1200px] min-h-[603.39px] gap-10 pt-[40px] pb-[40px]">
 
         <h2 className="text-[#2a5b45] text-2xl leading-7 font-medium ">
-               Ultimos Origenes
+               Ultimos Origenes.
               </h2>
         <div className="flex flex-wrap justify-center min-h-[391.39px] gap-6">
       {coffeData.slice(0, 8).map((coffe, i) => {
@@ -40,7 +40,7 @@ const GallerySection = () => {
                   <p className="font-normal">{coffe.price.toFixed(2)} €</p>
                 </div>
       
-                <button  disabled  className="flex items-center text-center py-3 px-6 min-h-[40px] justify-center max-w-fit text-white rounded font-semibold text-sm leading-4 bg-[#2a5b45]">Añadir</button>
+                <button  disabled  className="flex justify-center items-center min-w-[60px] min-h-[32px] text-[white] rounded text-sm font-semibold leading-4 bg-[#2a5b45b2]  group-hover:bg-[#2a5b45] group-hover:cursor-pointer">Añadir</button>
               </div>
             );
           })}</div>
