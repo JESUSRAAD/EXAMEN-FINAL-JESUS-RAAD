@@ -23,15 +23,23 @@ const GallerySectionTanStack = () => {
       if (isPending){
         
         const SkeletonCard = () => (
-            <div className="animate-pulse flex flex-col items-center justify-center w-[240px] h-[390px] bg-gray-200 rounded-lg p-4">
+
+            <div className="animate-pulse flex flex-col justify-center items-center  w-[240px] h-[390px] bg-gray-200 rounded-lg p-4">
               <div className="w-full h-40 bg-gray-300 rounded-lg mb-4"></div>
               <div className="w-3/4 h-4 bg-gray-300 rounded mb-2"></div>
               <div className="w-1/2 h-4 bg-gray-300 rounded"></div>
             </div>
+          
           );
-        return (Array.from({ length: 8 }).map((_, i) => (
-            <SkeletonCard key={i} />
-          )))}
+        return (
+            <div className='flex flex-wrap justify-center min-h-[391.39px] gap-6'>
+
+           {     Array.from({ length: 8 }).map((_, i) => (
+                <SkeletonCard key={i} />
+              ))}
+            </div>
+              )
+            }
     
       if (error) return 'An error has occurred: ' + error.message
     console.log(data);

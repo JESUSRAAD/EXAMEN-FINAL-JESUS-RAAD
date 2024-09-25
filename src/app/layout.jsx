@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <QueriProvaider>
          
             <Sidebar />
-        <div className="m-auto">
+        <div className=" w-auto m-auto ">
 
           {children}
         </div>
