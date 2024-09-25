@@ -1,9 +1,14 @@
 import React from 'react'
 import GallerySection from './GallerySection'
+import GallerySectionTanStack from './GallerySectionTanStack'
 
 const page = () => {
   return (
-    <div><GallerySection/></div>
+    <div>
+      
+      <GallerySectionTanStack/>
+      {/* <GallerySection/> */}
+    </div>
   )
 }
 

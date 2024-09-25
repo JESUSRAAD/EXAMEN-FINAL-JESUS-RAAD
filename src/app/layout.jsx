@@ -1,6 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
+import { QueriProvaider } from "@/components/QueriProvaide";
+
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,13 +25,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`flex gap-18 ${geistSans.variable} ${geistMono.variable} antialiased `}
-      >
-        <div>
-        <Sidebar/>
+        className={`flex   ${geistSans.variable} ${geistMono.variable}  `}
+        >
+        <QueriProvaider>
+         
+            <Sidebar />
+        <div className="m-auto">
 
+          {children}
         </div>
-        {children}
+        </QueriProvaider>
       </body>
     </html>
   );
